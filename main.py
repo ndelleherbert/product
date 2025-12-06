@@ -2,8 +2,6 @@ from fastapi import FastAPI
 from database import engine
 import databaseModels
 
-
-
 app = FastAPI(title="My Product")
 
 # Create DB tables
